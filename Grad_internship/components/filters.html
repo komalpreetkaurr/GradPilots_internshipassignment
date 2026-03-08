@@ -1,0 +1,46 @@
+<div class="sidebar">
+
+<h3>Filters</h3>
+
+<h4><i class="fa-solid fa-globe"></i> Country</h4>
+<label><input type="checkbox" value="USA" class="countryFilter"> USA</label>
+<label><input type="checkbox" value="UK" class="countryFilter"> UK</label>
+<label><input type="checkbox" value="Canada" class="countryFilter"> Canada</label>
+<label><input type="checkbox" value="Germany" class="countryFilter"> Germany</label>
+<label><input type="checkbox" value="France" class="countryFilter"> France</label>
+
+<h4><i class="fa-solid fa-graduation-cap"></i> Stream</h4>
+<label><input type="checkbox" value="Business" class="streamFilter"> Business</label>
+<label><input type="checkbox" value="Law" class="streamFilter"> Law</label>
+<label><input type="checkbox" value="IR" class="streamFilter"> IR</label>
+<label><input type="checkbox" value="STEM" class="streamFilter"> STEM</label>
+
+<h4><i class="fa-solid fa-layer-group"></i> Level</h4>
+<label><input type="checkbox" value="UG" class="levelFilter"> UG</label>
+<label><input type="checkbox" value="PG" class="levelFilter"> PG</label>
+<label><input type="checkbox" value="PhD" class="levelFilter"> PhD</label>
+
+<h4><i class="fa-solid fa-calendar-days"></i> Deadline</h4>
+
+<div class="deadline-container">
+<select id="deadlineFilter">
+<option value="">Select Date</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+</select>
+</div>
+
+<br><br>
+
+<div class="filter-buttons">
+
+<button class="reset-btn" onclick="resetFilters()">Reset Filters</button>
+<button class="apply-btn" onclick="applyFilters()">Apply</button>
+
+</div>
+
+</div>
